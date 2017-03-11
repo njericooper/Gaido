@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B6268D21E74744B00501DF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6268D11E74744B00501DF3 /* AppDelegate.swift */; };
+		3B6268D41E74744B00501DF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6268D31E74744B00501DF3 /* ViewController.swift */; };
+		3B6268D71E74744B00501DF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B6268D51E74744B00501DF3 /* Main.storyboard */; };
+		3B6268D91E74744B00501DF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B6268D81E74744B00501DF3 /* Assets.xcassets */; };
+		3B6268DC1E74744B00501DF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B6268DA1E74744B00501DF3 /* LaunchScreen.storyboard */; };
+		3B6268E71E74744D00501DF3 /* GaidoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6268E61E74744D00501DF3 /* GaidoTests.swift */; };
+		3B6268F21E74744D00501DF3 /* GaidoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6268F11E74744D00501DF3 /* GaidoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B6268E31E74744D00501DF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B6268C61E74744B00501DF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B6268CD1E74744B00501DF3;
+			remoteInfo = Gaido;
+		};
+		3B6268EE1E74744D00501DF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B6268C61E74744B00501DF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B6268CD1E74744B00501DF3;
+			remoteInfo = Gaido;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B6268CE1E74744B00501DF3 /* Gaido.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gaido.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B6268D11E74744B00501DF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B6268D31E74744B00501DF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B6268D61E74744B00501DF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B6268D81E74744B00501DF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B6268DB1E74744B00501DF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B6268DD1E74744B00501DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B6268E21E74744D00501DF3 /* GaidoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaidoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B6268E61E74744D00501DF3 /* GaidoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaidoTests.swift; sourceTree = "<group>"; };
+		3B6268E81E74744D00501DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B6268ED1E74744D00501DF3 /* GaidoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaidoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B6268F11E74744D00501DF3 /* GaidoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaidoUITests.swift; sourceTree = "<group>"; };
+		3B6268F31E74744D00501DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B6268CB1E74744B00501DF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6268DF1E74744D00501DF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6268EA1E74744D00501DF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B6268C51E74744B00501DF3 = {
+			isa = PBXGroup;
+			children = (
+				3B6268D01E74744B00501DF3 /* Gaido */,
+				3B6268E51E74744D00501DF3 /* GaidoTests */,
+				3B6268F01E74744D00501DF3 /* GaidoUITests */,
+				3B6268CF1E74744B00501DF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B6268CF1E74744B00501DF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B6268CE1E74744B00501DF3 /* Gaido.app */,
+				3B6268E21E74744D00501DF3 /* GaidoTests.xctest */,
+				3B6268ED1E74744D00501DF3 /* GaidoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B6268D01E74744B00501DF3 /* Gaido */ = {
+			isa = PBXGroup;
+			children = (
+				3B6268D11E74744B00501DF3 /* AppDelegate.swift */,
+				3B6268D31E74744B00501DF3 /* ViewController.swift */,
+				3B6268D51E74744B00501DF3 /* Main.storyboard */,
+				3B6268D81E74744B00501DF3 /* Assets.xcassets */,
+				3B6268DA1E74744B00501DF3 /* LaunchScreen.storyboard */,
+				3B6268DD1E74744B00501DF3 /* Info.plist */,
+			);
+			path = Gaido;
+			sourceTree = "<group>";
+		};
+		3B6268E51E74744D00501DF3 /* GaidoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B6268E61E74744D00501DF3 /* GaidoTests.swift */,
+				3B6268E81E74744D00501DF3 /* Info.plist */,
+			);
+			path = GaidoTests;
+			sourceTree = "<group>";
+		};
+		3B6268F01E74744D00501DF3 /* GaidoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B6268F11E74744D00501DF3 /* GaidoUITests.swift */,
+				3B6268F31E74744D00501DF3 /* Info.plist */,
+			);
+			path = GaidoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B6268CD1E74744B00501DF3 /* Gaido */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B6268F61E74744D00501DF3 /* Build configuration list for PBXNativeTarget "Gaido" */;
+			buildPhases = (
+				3B6268CA1E74744B00501DF3 /* Sources */,
+				3B6268CB1E74744B00501DF3 /* Frameworks */,
+				3B6268CC1E74744B00501DF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gaido;
+			productName = Gaido;
+			productReference = 3B6268CE1E74744B00501DF3 /* Gaido.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B6268E11E74744D00501DF3 /* GaidoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B6268F91E74744D00501DF3 /* Build configuration list for PBXNativeTarget "GaidoTests" */;
+			buildPhases = (
+				3B6268DE1E74744D00501DF3 /* Sources */,
+				3B6268DF1E74744D00501DF3 /* Frameworks */,
+				3B6268E01E74744D00501DF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B6268E41E74744D00501DF3 /* PBXTargetDependency */,
+			);
+			name = GaidoTests;
+			productName = GaidoTests;
+			productReference = 3B6268E21E74744D00501DF3 /* GaidoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B6268EC1E74744D00501DF3 /* GaidoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B6268FC1E74744D00501DF3 /* Build configuration list for PBXNativeTarget "GaidoUITests" */;
+			buildPhases = (
+				3B6268E91E74744D00501DF3 /* Sources */,
+				3B6268EA1E74744D00501DF3 /* Frameworks */,
+				3B6268EB1E74744D00501DF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B6268EF1E74744D00501DF3 /* PBXTargetDependency */,
+			);
+			name = GaidoUITests;
+			productName = GaidoUITests;
+			productReference = 3B6268ED1E74744D00501DF3 /* GaidoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B6268C61E74744B00501DF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Thomas Threlkeld";
+				TargetAttributes = {
+					3B6268CD1E74744B00501DF3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 55D7278478;
+						ProvisioningStyle = Automatic;
+					};
+					3B6268E11E74744D00501DF3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 55D7278478;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3B6268CD1E74744B00501DF3;
+					};
+					3B6268EC1E74744D00501DF3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 55D7278478;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3B6268CD1E74744B00501DF3;
+					};
+				};
+			};
+			buildConfigurationList = 3B6268C91E74744B00501DF3 /* Build configuration list for PBXProject "Gaido" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B6268C51E74744B00501DF3;
+			productRefGroup = 3B6268CF1E74744B00501DF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B6268CD1E74744B00501DF3 /* Gaido */,
+				3B6268E11E74744D00501DF3 /* GaidoTests */,
+				3B6268EC1E74744D00501DF3 /* GaidoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B6268CC1E74744B00501DF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6268DC1E74744B00501DF3 /* LaunchScreen.storyboard in Resources */,
+				3B6268D91E74744B00501DF3 /* Assets.xcassets in Resources */,
+				3B6268D71E74744B00501DF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6268E01E74744D00501DF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6268EB1E74744D00501DF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B6268CA1E74744B00501DF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6268D41E74744B00501DF3 /* ViewController.swift in Sources */,
+				3B6268D21E74744B00501DF3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6268DE1E74744D00501DF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6268E71E74744D00501DF3 /* GaidoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6268E91E74744D00501DF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6268F21E74744D00501DF3 /* GaidoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B6268E41E74744D00501DF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B6268CD1E74744B00501DF3 /* Gaido */;
+			targetProxy = 3B6268E31E74744D00501DF3 /* PBXContainerItemProxy */;
+		};
+		3B6268EF1E74744D00501DF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B6268CD1E74744B00501DF3 /* Gaido */;
+			targetProxy = 3B6268EE1E74744D00501DF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B6268D51E74744B00501DF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B6268D61E74744B00501DF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B6268DA1E74744B00501DF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B6268DB1E74744B00501DF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B6268F41E74744D00501DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B6268F51E74744D00501DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B6268F71E74744D00501DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 55D7278478;
+				INFOPLIST_FILE = Gaido/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shitapps.Gaido;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3B6268F81E74744D00501DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 55D7278478;
+				INFOPLIST_FILE = Gaido/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shitapps.Gaido;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3B6268FA1E74744D00501DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 55D7278478;
+				INFOPLIST_FILE = GaidoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shitapps.GaidoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gaido.app/Gaido";
+			};
+			name = Debug;
+		};
+		3B6268FB1E74744D00501DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 55D7278478;
+				INFOPLIST_FILE = GaidoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shitapps.GaidoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gaido.app/Gaido";
+			};
+			name = Release;
+		};
+		3B6268FD1E74744D00501DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 55D7278478;
+				INFOPLIST_FILE = GaidoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shitapps.GaidoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Gaido;
+			};
+			name = Debug;
+		};
+		3B6268FE1E74744D00501DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 55D7278478;
+				INFOPLIST_FILE = GaidoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shitapps.GaidoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Gaido;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B6268C91E74744B00501DF3 /* Build configuration list for PBXProject "Gaido" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6268F41E74744D00501DF3 /* Debug */,
+				3B6268F51E74744D00501DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B6268F61E74744D00501DF3 /* Build configuration list for PBXNativeTarget "Gaido" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6268F71E74744D00501DF3 /* Debug */,
+				3B6268F81E74744D00501DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B6268F91E74744D00501DF3 /* Build configuration list for PBXNativeTarget "GaidoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6268FA1E74744D00501DF3 /* Debug */,
+				3B6268FB1E74744D00501DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B6268FC1E74744D00501DF3 /* Build configuration list for PBXNativeTarget "GaidoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6268FD1E74744D00501DF3 /* Debug */,
+				3B6268FE1E74744D00501DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B6268C61E74744B00501DF3 /* Project object */;
+}
