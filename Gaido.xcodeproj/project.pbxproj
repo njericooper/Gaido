@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B2CB0181E770A5A002A6A57 /* DiscoverCategoryCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2CB0161E770A5A002A6A57 /* DiscoverCategoryCellCollectionViewCell.swift */; };
+		3B2CB0191E770A5A002A6A57 /* DiscoverCategoryCellCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B2CB0171E770A5A002A6A57 /* DiscoverCategoryCellCollectionViewCell.xib */; };
+		3B2CB01B1E770B76002A6A57 /* CitySelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2CB01A1E770B76002A6A57 /* CitySelectorViewController.swift */; };
+		3B2CB01D1E770CF7002A6A57 /* SelectInitialInterests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2CB01C1E770CF7002A6A57 /* SelectInitialInterests.swift */; };
 		3B6268D21E74744B00501DF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6268D11E74744B00501DF3 /* AppDelegate.swift */; };
-		3B6268D41E74744B00501DF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6268D31E74744B00501DF3 /* ViewController.swift */; };
 		3B6268D71E74744B00501DF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B6268D51E74744B00501DF3 /* Main.storyboard */; };
 		3B6268D91E74744B00501DF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B6268D81E74744B00501DF3 /* Assets.xcassets */; };
 		3B6268DC1E74744B00501DF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B6268DA1E74744B00501DF3 /* LaunchScreen.storyboard */; };
 		3B6268E71E74744D00501DF3 /* GaidoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6268E61E74744D00501DF3 /* GaidoTests.swift */; };
 		3B6268F21E74744D00501DF3 /* GaidoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6268F11E74744D00501DF3 /* GaidoUITests.swift */; };
+		3B6269001E7478D000501DF3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6268FF1E7478D000501DF3 /* LoginViewController.swift */; };
+		3B6269021E7485E500501DF3 /* CreateAccount1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6269011E7485E500501DF3 /* CreateAccount1.swift */; };
+		3BC18C2D1E74998500BF1DFC /* CreateAccount2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC18C2C1E74998500BF1DFC /* CreateAccount2.swift */; };
+		3BC18C301E74A32700BF1DFC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC18C2F1E74A32700BF1DFC /* User.swift */; };
+		4B19A1D85C3977B129B0F1EC /* Pods_GaidoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5E539C65B34B76B73502B1C /* Pods_GaidoTests.framework */; };
+		8417A6787F21DDF086C9E450 /* Pods_GaidoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2625BCE9EA565FBB4101731 /* Pods_GaidoUITests.framework */; };
+		8C1BC8627B4113745923BFB2 /* Pods_Gaido.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C69F1D2086EEE3C7C2F4B92 /* Pods_Gaido.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F878CB62FE2EECD4CDCA820 /* Pods-Gaido.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gaido.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gaido/Pods-Gaido.release.xcconfig"; sourceTree = "<group>"; };
+		3B2CB0161E770A5A002A6A57 /* DiscoverCategoryCellCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverCategoryCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		3B2CB0171E770A5A002A6A57 /* DiscoverCategoryCellCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscoverCategoryCellCollectionViewCell.xib; sourceTree = "<group>"; };
+		3B2CB01A1E770B76002A6A57 /* CitySelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitySelectorViewController.swift; sourceTree = "<group>"; };
+		3B2CB01C1E770CF7002A6A57 /* SelectInitialInterests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectInitialInterests.swift; sourceTree = "<group>"; };
 		3B6268CE1E74744B00501DF3 /* Gaido.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gaido.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B6268D11E74744B00501DF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3B6268D31E74744B00501DF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3B6268D61E74744B00501DF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B6268D81E74744B00501DF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B6268DB1E74744B00501DF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +61,18 @@
 		3B6268ED1E74744D00501DF3 /* GaidoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaidoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B6268F11E74744D00501DF3 /* GaidoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaidoUITests.swift; sourceTree = "<group>"; };
 		3B6268F31E74744D00501DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B6268FF1E7478D000501DF3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3B6269011E7485E500501DF3 /* CreateAccount1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccount1.swift; sourceTree = "<group>"; };
+		3BC18C2C1E74998500BF1DFC /* CreateAccount2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccount2.swift; sourceTree = "<group>"; };
+		3BC18C2F1E74A32700BF1DFC /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5C69F1D2086EEE3C7C2F4B92 /* Pods_Gaido.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gaido.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E5D85C88FDFCE996F8821C5 /* Pods-GaidoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaidoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GaidoTests/Pods-GaidoTests.release.xcconfig"; sourceTree = "<group>"; };
+		B2625BCE9EA565FBB4101731 /* Pods_GaidoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GaidoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C722450E9170A49D041AAD8D /* Pods-GaidoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaidoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GaidoUITests/Pods-GaidoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D03548593D24432864B1FDED /* Pods-GaidoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaidoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GaidoUITests/Pods-GaidoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D5E539C65B34B76B73502B1C /* Pods_GaidoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GaidoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E260856ADA37CB2675F37D77 /* Pods-Gaido.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gaido.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gaido/Pods-Gaido.debug.xcconfig"; sourceTree = "<group>"; };
+		F2B5F5F0417755A0DCB05C02 /* Pods-GaidoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaidoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GaidoTests/Pods-GaidoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C1BC8627B4113745923BFB2 /* Pods_Gaido.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B19A1D85C3977B129B0F1EC /* Pods_GaidoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8417A6787F21DDF086C9E450 /* Pods_GaidoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +110,8 @@
 				3B6268E51E74744D00501DF3 /* GaidoTests */,
 				3B6268F01E74744D00501DF3 /* GaidoUITests */,
 				3B6268CF1E74744B00501DF3 /* Products */,
+				3D625D0032177659786A8C7E /* Pods */,
+				4B9A5DB60BBB830DF44BE2A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +128,19 @@
 		3B6268D01E74744B00501DF3 /* Gaido */ = {
 			isa = PBXGroup;
 			children = (
+				3BC18C2E1E74A2EF00BF1DFC /* Model */,
 				3B6268D11E74744B00501DF3 /* AppDelegate.swift */,
-				3B6268D31E74744B00501DF3 /* ViewController.swift */,
+				3B6268FF1E7478D000501DF3 /* LoginViewController.swift */,
 				3B6268D51E74744B00501DF3 /* Main.storyboard */,
 				3B6268D81E74744B00501DF3 /* Assets.xcassets */,
 				3B6268DA1E74744B00501DF3 /* LaunchScreen.storyboard */,
 				3B6268DD1E74744B00501DF3 /* Info.plist */,
+				3B6269011E7485E500501DF3 /* CreateAccount1.swift */,
+				3BC18C2C1E74998500BF1DFC /* CreateAccount2.swift */,
+				3B2CB0161E770A5A002A6A57 /* DiscoverCategoryCellCollectionViewCell.swift */,
+				3B2CB0171E770A5A002A6A57 /* DiscoverCategoryCellCollectionViewCell.xib */,
+				3B2CB01A1E770B76002A6A57 /* CitySelectorViewController.swift */,
+				3B2CB01C1E770CF7002A6A57 /* SelectInitialInterests.swift */,
 			);
 			path = Gaido;
 			sourceTree = "<group>";
@@ -125,6 +163,37 @@
 			path = GaidoUITests;
 			sourceTree = "<group>";
 		};
+		3BC18C2E1E74A2EF00BF1DFC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3BC18C2F1E74A32700BF1DFC /* User.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3D625D0032177659786A8C7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E260856ADA37CB2675F37D77 /* Pods-Gaido.debug.xcconfig */,
+				2F878CB62FE2EECD4CDCA820 /* Pods-Gaido.release.xcconfig */,
+				F2B5F5F0417755A0DCB05C02 /* Pods-GaidoTests.debug.xcconfig */,
+				5E5D85C88FDFCE996F8821C5 /* Pods-GaidoTests.release.xcconfig */,
+				C722450E9170A49D041AAD8D /* Pods-GaidoUITests.debug.xcconfig */,
+				D03548593D24432864B1FDED /* Pods-GaidoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4B9A5DB60BBB830DF44BE2A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C69F1D2086EEE3C7C2F4B92 /* Pods_Gaido.framework */,
+				D5E539C65B34B76B73502B1C /* Pods_GaidoTests.framework */,
+				B2625BCE9EA565FBB4101731 /* Pods_GaidoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B6268F61E74744D00501DF3 /* Build configuration list for PBXNativeTarget "Gaido" */;
 			buildPhases = (
+				339E1861D10B2116A8685965 /* [CP] Check Pods Manifest.lock */,
 				3B6268CA1E74744B00501DF3 /* Sources */,
 				3B6268CB1E74744B00501DF3 /* Frameworks */,
 				3B6268CC1E74744B00501DF3 /* Resources */,
+				753B46531975AAB7496DFCBC /* [CP] Embed Pods Frameworks */,
+				EA40D01711145802335BA20D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B6268F91E74744D00501DF3 /* Build configuration list for PBXNativeTarget "GaidoTests" */;
 			buildPhases = (
+				65BE82B997031CD7FDC42B8A /* [CP] Check Pods Manifest.lock */,
 				3B6268DE1E74744D00501DF3 /* Sources */,
 				3B6268DF1E74744D00501DF3 /* Frameworks */,
 				3B6268E01E74744D00501DF3 /* Resources */,
+				3B9167A4BB6A20B665A4D683 /* [CP] Embed Pods Frameworks */,
+				1EC8DB720D10208235E3BA32 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +242,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B6268FC1E74744D00501DF3 /* Build configuration list for PBXNativeTarget "GaidoUITests" */;
 			buildPhases = (
+				D75532520C992D44C050A8DD /* [CP] Check Pods Manifest.lock */,
 				3B6268E91E74744D00501DF3 /* Sources */,
 				3B6268EA1E74744D00501DF3 /* Frameworks */,
 				3B6268EB1E74744D00501DF3 /* Resources */,
+				4F1BAD457C51A939E2F6C213 /* [CP] Embed Pods Frameworks */,
+				C0AD26CF1EBB4E86FF28E5D2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,6 +316,7 @@
 				3B6268DC1E74744B00501DF3 /* LaunchScreen.storyboard in Resources */,
 				3B6268D91E74744B00501DF3 /* Assets.xcassets in Resources */,
 				3B6268D71E74744B00501DF3 /* Main.storyboard in Resources */,
+				3B2CB0191E770A5A002A6A57 /* DiscoverCategoryCellCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,12 +336,156 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1EC8DB720D10208235E3BA32 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GaidoTests/Pods-GaidoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		339E1861D10B2116A8685965 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3B9167A4BB6A20B665A4D683 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GaidoTests/Pods-GaidoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F1BAD457C51A939E2F6C213 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GaidoUITests/Pods-GaidoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65BE82B997031CD7FDC42B8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		753B46531975AAB7496DFCBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gaido/Pods-Gaido-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0AD26CF1EBB4E86FF28E5D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GaidoUITests/Pods-GaidoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D75532520C992D44C050A8DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA40D01711145802335BA20D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gaido/Pods-Gaido-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3B6268CA1E74744B00501DF3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B6268D41E74744B00501DF3 /* ViewController.swift in Sources */,
+				3B6269021E7485E500501DF3 /* CreateAccount1.swift in Sources */,
+				3B2CB0181E770A5A002A6A57 /* DiscoverCategoryCellCollectionViewCell.swift in Sources */,
+				3B2CB01D1E770CF7002A6A57 /* SelectInitialInterests.swift in Sources */,
+				3B2CB01B1E770B76002A6A57 /* CitySelectorViewController.swift in Sources */,
+				3B6269001E7478D000501DF3 /* LoginViewController.swift in Sources */,
+				3BC18C2D1E74998500BF1DFC /* CreateAccount2.swift in Sources */,
+				3BC18C301E74A32700BF1DFC /* User.swift in Sources */,
 				3B6268D21E74744B00501DF3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +636,7 @@
 		};
 		3B6268F71E74744D00501DF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E260856ADA37CB2675F37D77 /* Pods-Gaido.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 55D7278478;
@@ -426,6 +650,7 @@
 		};
 		3B6268F81E74744D00501DF3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F878CB62FE2EECD4CDCA820 /* Pods-Gaido.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 55D7278478;
@@ -439,6 +664,7 @@
 		};
 		3B6268FA1E74744D00501DF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2B5F5F0417755A0DCB05C02 /* Pods-GaidoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +680,7 @@
 		};
 		3B6268FB1E74744D00501DF3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E5D85C88FDFCE996F8821C5 /* Pods-GaidoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +696,7 @@
 		};
 		3B6268FD1E74744D00501DF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C722450E9170A49D041AAD8D /* Pods-GaidoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 55D7278478;
@@ -483,6 +711,7 @@
 		};
 		3B6268FE1E74744D00501DF3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D03548593D24432864B1FDED /* Pods-GaidoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 55D7278478;
@@ -514,6 +743,7 @@
 				3B6268F81E74744D00501DF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B6268F91E74744D00501DF3 /* Build configuration list for PBXNativeTarget "GaidoTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +752,7 @@
 				3B6268FB1E74744D00501DF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B6268FC1E74744D00501DF3 /* Build configuration list for PBXNativeTarget "GaidoUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +761,7 @@
 				3B6268FE1E74744D00501DF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
