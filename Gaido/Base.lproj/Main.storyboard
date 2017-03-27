@@ -435,7 +435,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Vv-gX-Kk5">
                                 <rect key="frame" x="274" y="76" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="470F3305-F64B-4932-BD51-4D7F41EF8D57"/>
+                                <state key="normal" image="0D291A29-8768-493B-8A22-55A34D019A38"/>
                                 <connections>
                                     <action selector="button3Pressed:" destination="EN7-HV-qW3" eventType="touchUpInside" id="erN-CM-0GP"/>
                                 </connections>
@@ -693,7 +693,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="470F3305-F64B-4932-BD51-4D7F41EF8D57" width="50" height="50">
+        <image name="0D291A29-8768-493B-8A22-55A34D019A38" width="50" height="50">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOjtYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBEW
 GxwgISgrLjQ3VSRudWxs1AkKCwwNDg8QViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBzV05TQ29sb3KA
