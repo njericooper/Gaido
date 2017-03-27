@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FBSDKLoginKit
 
 class FacebookOrEmailViewController: UIViewController {
     @IBAction func facebookPressed(_ sender: Any) {

@@ -73,7 +73,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gQS-PJ-dqa">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gQS-PJ-dqa" customClass="FBSDKLoginButton">
                                 <rect key="frame" x="151" y="196" width="73" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="fb-art"/>
@@ -435,7 +435,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Vv-gX-Kk5">
                                 <rect key="frame" x="274" y="76" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="F33055B5-5295-46FD-A6DE-EDBC77C7C89A"/>
+                                <state key="normal" image="3C7C8812-C248-4EBC-9332-00C42D358AED"/>
                                 <connections>
                                     <action selector="button3Pressed:" destination="EN7-HV-qW3" eventType="touchUpInside" id="erN-CM-0GP"/>
                                 </connections>
@@ -693,10 +693,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Attractions Icon" width="204" height="153"/>
-        <image name="Build your avatar" width="194" height="25"/>
-        <image name="Eats" width="233" height="154"/>
-        <image name="F33055B5-5295-46FD-A6DE-EDBC77C7C89A" width="50" height="50">
+        <image name="3C7C8812-C248-4EBC-9332-00C42D358AED" width="50" height="50">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOjtYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBEW
 GxwgISgrLjQ3VSRudWxs1AkKCwwNDg8QViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBzV05TQ29sb3KA
@@ -932,6 +929,9 @@ oACiAKQApgCoAK0AxADGAMg06jTvNPo1AzUWNRo1JTUuNTM1OzU+NUM1UjVWNV01ZTVyNXc1eTV7NYA1
 iDWLNZA1mDWbNa01sDW1AAAAAAAAAgEAAAAAAAAAPgAAAAAAAAAAAAAAAAAANbc
 </mutableData>
         </image>
+        <image name="Attractions Icon" width="204" height="153"/>
+        <image name="Build your avatar" width="194" height="25"/>
+        <image name="Eats" width="233" height="154"/>
         <image name="Face with White Outside Space" width="200" height="200"/>
         <image name="Gaido" width="214" height="120"/>
         <image name="Hair Color" width="110" height="21"/>

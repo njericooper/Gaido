@@ -29,9 +29,9 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         gaidoRed = (createAccount.backgroundColor)!
-        let facebookLoginButton = FBSDKLoginButton()
+        /*let facebookLoginButton = FBSDKLoginButton()
         facebookLoginButton.center = self.view.center
-        self.view.addSubview(facebookLoginButton)
+        self.view.addSubview(facebookLoginButton)*/
         
         loginButton.layer.borderColor = gaidoRed.cgColor
         loginButton.layer.borderWidth = 2.0
