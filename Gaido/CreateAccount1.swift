@@ -16,11 +16,14 @@ class CreateAccount1: UIViewController{
     @IBOutlet weak var mapBackgroundImageView: UIImageView!
     @IBOutlet weak var continueButton: UIButton!
     
+    var userEmail = String()
+    var userPass = String()
+    
     @IBAction func continuePressed(_ sender: Any) {
         if nameTextField.text == ""{
             print("must choose name")
         }else{
-           // performSegue(withIdentifier: "NameToFace", sender: self)
+            performSegue(withIdentifier: "NameToFace", sender: self)
         }
     }
     override func viewDidLoad() {
@@ -53,14 +56,27 @@ class CreateAccount1: UIViewController{
     }
     
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
+        if let vc = (segue.destination as? CreateAccount2){
+            vc.name = self.nameTextField.text!
+            //vc.nameLabel.text = self.nameTextField.text
+            if (nickNameTextField.text?.isEmpty)!{
+                vc.nickName = ""
+                vc.userEmail = self.userEmail
+                vc.userPass = self.userPass
+            }else{
+                vc.nickName = self.nickNameTextField.text!
+                vc.userEmail = self.userEmail
+                vc.userPass = self.userPass
+            }
+        }
     }
-    */
+    
 
 }

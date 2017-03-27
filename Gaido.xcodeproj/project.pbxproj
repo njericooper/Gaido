@@ -7,10 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B2CB0181E770A5A002A6A57 /* DiscoverCategoryCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2CB0161E770A5A002A6A57 /* DiscoverCategoryCellCollectionViewCell.swift */; };
-		3B2CB0191E770A5A002A6A57 /* DiscoverCategoryCellCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B2CB0171E770A5A002A6A57 /* DiscoverCategoryCellCollectionViewCell.xib */; };
-		3B2CB01B1E770B76002A6A57 /* CitySelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2CB01A1E770B76002A6A57 /* CitySelectorViewController.swift */; };
-		3B2CB01D1E770CF7002A6A57 /* SelectInitialInterests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2CB01C1E770CF7002A6A57 /* SelectInitialInterests.swift */; };
+		35E1C5E5412A9E6ACE633EBA /* Pods_Gaido.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC351A82D1FB74D7C6BACE5 /* Pods_Gaido.framework */; };
 		3B6268D21E74744B00501DF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6268D11E74744B00501DF3 /* AppDelegate.swift */; };
 		3B6268D71E74744B00501DF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B6268D51E74744B00501DF3 /* Main.storyboard */; };
 		3B6268D91E74744B00501DF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B6268D81E74744B00501DF3 /* Assets.xcassets */; };
@@ -19,11 +16,15 @@
 		3B6268F21E74744D00501DF3 /* GaidoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6268F11E74744D00501DF3 /* GaidoUITests.swift */; };
 		3B6269001E7478D000501DF3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6268FF1E7478D000501DF3 /* LoginViewController.swift */; };
 		3B6269021E7485E500501DF3 /* CreateAccount1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6269011E7485E500501DF3 /* CreateAccount1.swift */; };
+		3BA97CE31E886923001167FC /* HairSelectorVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA97CE21E886923001167FC /* HairSelectorVCViewController.swift */; };
 		3BC18C2D1E74998500BF1DFC /* CreateAccount2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC18C2C1E74998500BF1DFC /* CreateAccount2.swift */; };
 		3BC18C301E74A32700BF1DFC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC18C2F1E74A32700BF1DFC /* User.swift */; };
-		4B19A1D85C3977B129B0F1EC /* Pods_GaidoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5E539C65B34B76B73502B1C /* Pods_GaidoTests.framework */; };
-		8417A6787F21DDF086C9E450 /* Pods_GaidoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2625BCE9EA565FBB4101731 /* Pods_GaidoUITests.framework */; };
-		8C1BC8627B4113745923BFB2 /* Pods_Gaido.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C69F1D2086EEE3C7C2F4B92 /* Pods_Gaido.framework */; };
+		3BC636431E89788D0061C68A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3BC636421E89788D0061C68A /* GoogleService-Info.plist */; };
+		3BC636451E897AA60061C68A /* AvatarFinishedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC636441E897AA60061C68A /* AvatarFinishedViewController.swift */; };
+		3BC636471E8987760061C68A /* FacebookOrEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC636461E8987760061C68A /* FacebookOrEmailViewController.swift */; };
+		3BC636491E899DD80061C68A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC636481E899DD80061C68A /* ProfileViewController.swift */; };
+		623F41FB8089B357F3776819 /* Pods_GaidoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3F6538D539042313CE360C /* Pods_GaidoTests.framework */; };
+		CBA094A757199B829D83133D /* Pods_GaidoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F893DCFFF081DD4925E8A4 /* Pods_GaidoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +46,6 @@
 
 /* Begin PBXFileReference section */
 		2F878CB62FE2EECD4CDCA820 /* Pods-Gaido.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gaido.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gaido/Pods-Gaido.release.xcconfig"; sourceTree = "<group>"; };
-		3B2CB0161E770A5A002A6A57 /* DiscoverCategoryCellCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverCategoryCellCollectionViewCell.swift; sourceTree = "<group>"; };
-		3B2CB0171E770A5A002A6A57 /* DiscoverCategoryCellCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscoverCategoryCellCollectionViewCell.xib; sourceTree = "<group>"; };
-		3B2CB01A1E770B76002A6A57 /* CitySelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitySelectorViewController.swift; sourceTree = "<group>"; };
-		3B2CB01C1E770CF7002A6A57 /* SelectInitialInterests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectInitialInterests.swift; sourceTree = "<group>"; };
 		3B6268CE1E74744B00501DF3 /* Gaido.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gaido.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B6268D11E74744B00501DF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B6268D61E74744B00501DF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,15 +60,20 @@
 		3B6268F31E74744D00501DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B6268FF1E7478D000501DF3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3B6269011E7485E500501DF3 /* CreateAccount1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccount1.swift; sourceTree = "<group>"; };
+		3BA97CE21E886923001167FC /* HairSelectorVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HairSelectorVCViewController.swift; sourceTree = "<group>"; };
 		3BC18C2C1E74998500BF1DFC /* CreateAccount2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccount2.swift; sourceTree = "<group>"; };
 		3BC18C2F1E74A32700BF1DFC /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		5C69F1D2086EEE3C7C2F4B92 /* Pods_Gaido.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gaido.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC636421E89788D0061C68A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Documents/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3BC636441E897AA60061C68A /* AvatarFinishedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarFinishedViewController.swift; sourceTree = "<group>"; };
+		3BC636461E8987760061C68A /* FacebookOrEmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookOrEmailViewController.swift; sourceTree = "<group>"; };
+		3BC636481E899DD80061C68A /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		5E5D85C88FDFCE996F8821C5 /* Pods-GaidoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaidoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GaidoTests/Pods-GaidoTests.release.xcconfig"; sourceTree = "<group>"; };
-		B2625BCE9EA565FBB4101731 /* Pods_GaidoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GaidoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC351A82D1FB74D7C6BACE5 /* Pods_Gaido.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gaido.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2F893DCFFF081DD4925E8A4 /* Pods_GaidoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GaidoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C722450E9170A49D041AAD8D /* Pods-GaidoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaidoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GaidoUITests/Pods-GaidoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D03548593D24432864B1FDED /* Pods-GaidoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaidoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GaidoUITests/Pods-GaidoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		D5E539C65B34B76B73502B1C /* Pods_GaidoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GaidoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E260856ADA37CB2675F37D77 /* Pods-Gaido.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gaido.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gaido/Pods-Gaido.debug.xcconfig"; sourceTree = "<group>"; };
+		ED3F6538D539042313CE360C /* Pods_GaidoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GaidoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B5F5F0417755A0DCB05C02 /* Pods-GaidoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaidoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GaidoTests/Pods-GaidoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C1BC8627B4113745923BFB2 /* Pods_Gaido.framework in Frameworks */,
+				35E1C5E5412A9E6ACE633EBA /* Pods_Gaido.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B19A1D85C3977B129B0F1EC /* Pods_GaidoTests.framework in Frameworks */,
+				623F41FB8089B357F3776819 /* Pods_GaidoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8417A6787F21DDF086C9E450 /* Pods_GaidoUITests.framework in Frameworks */,
+				CBA094A757199B829D83133D /* Pods_GaidoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,12 +137,13 @@
 				3B6268D81E74744B00501DF3 /* Assets.xcassets */,
 				3B6268DA1E74744B00501DF3 /* LaunchScreen.storyboard */,
 				3B6268DD1E74744B00501DF3 /* Info.plist */,
+				3BC636421E89788D0061C68A /* GoogleService-Info.plist */,
 				3B6269011E7485E500501DF3 /* CreateAccount1.swift */,
+				3BC636461E8987760061C68A /* FacebookOrEmailViewController.swift */,
 				3BC18C2C1E74998500BF1DFC /* CreateAccount2.swift */,
-				3B2CB0161E770A5A002A6A57 /* DiscoverCategoryCellCollectionViewCell.swift */,
-				3B2CB0171E770A5A002A6A57 /* DiscoverCategoryCellCollectionViewCell.xib */,
-				3B2CB01A1E770B76002A6A57 /* CitySelectorViewController.swift */,
-				3B2CB01C1E770CF7002A6A57 /* SelectInitialInterests.swift */,
+				3BA97CE21E886923001167FC /* HairSelectorVCViewController.swift */,
+				3BC636441E897AA60061C68A /* AvatarFinishedViewController.swift */,
+				3BC636481E899DD80061C68A /* ProfileViewController.swift */,
 			);
 			path = Gaido;
 			sourceTree = "<group>";
@@ -187,9 +190,9 @@
 		4B9A5DB60BBB830DF44BE2A9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5C69F1D2086EEE3C7C2F4B92 /* Pods_Gaido.framework */,
-				D5E539C65B34B76B73502B1C /* Pods_GaidoTests.framework */,
-				B2625BCE9EA565FBB4101731 /* Pods_GaidoUITests.framework */,
+				5EC351A82D1FB74D7C6BACE5 /* Pods_Gaido.framework */,
+				ED3F6538D539042313CE360C /* Pods_GaidoTests.framework */,
+				A2F893DCFFF081DD4925E8A4 /* Pods_GaidoUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -315,8 +318,8 @@
 			files = (
 				3B6268DC1E74744B00501DF3 /* LaunchScreen.storyboard in Resources */,
 				3B6268D91E74744B00501DF3 /* Assets.xcassets in Resources */,
+				3BC636431E89788D0061C68A /* GoogleService-Info.plist in Resources */,
 				3B6268D71E74744B00501DF3 /* Main.storyboard in Resources */,
-				3B2CB0191E770A5A002A6A57 /* DiscoverCategoryCellCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,12 +482,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BA97CE31E886923001167FC /* HairSelectorVCViewController.swift in Sources */,
 				3B6269021E7485E500501DF3 /* CreateAccount1.swift in Sources */,
-				3B2CB0181E770A5A002A6A57 /* DiscoverCategoryCellCollectionViewCell.swift in Sources */,
-				3B2CB01D1E770CF7002A6A57 /* SelectInitialInterests.swift in Sources */,
-				3B2CB01B1E770B76002A6A57 /* CitySelectorViewController.swift in Sources */,
+				3BC636451E897AA60061C68A /* AvatarFinishedViewController.swift in Sources */,
+				3BC636471E8987760061C68A /* FacebookOrEmailViewController.swift in Sources */,
 				3B6269001E7478D000501DF3 /* LoginViewController.swift in Sources */,
 				3BC18C2D1E74998500BF1DFC /* CreateAccount2.swift in Sources */,
+				3BC636491E899DD80061C68A /* ProfileViewController.swift in Sources */,
 				3BC18C301E74A32700BF1DFC /* User.swift in Sources */,
 				3B6268D21E74744B00501DF3 /* AppDelegate.swift in Sources */,
 			);
@@ -639,6 +643,7 @@
 			baseConfigurationReference = E260856ADA37CB2675F37D77 /* Pods-Gaido.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 55D7278478;
 				INFOPLIST_FILE = Gaido/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -653,6 +658,7 @@
 			baseConfigurationReference = 2F878CB62FE2EECD4CDCA820 /* Pods-Gaido.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 55D7278478;
 				INFOPLIST_FILE = Gaido/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

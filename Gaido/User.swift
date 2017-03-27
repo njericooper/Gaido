@@ -13,10 +13,11 @@ import UIKit
 class User {
     var name: String?
     var nickName: String?
-    var location: CLLocation?
-    var face: Int?
+    var location: String?
     var hair: Int?
     var skinShade: Int?
+    var userEmail: String?
+    var userPass: String?
     
     
 }

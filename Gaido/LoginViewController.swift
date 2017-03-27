@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import FBSDKCoreKit
+//import FBSDKCoreKit
 import FBSDKLoginKit
 
 
@@ -17,6 +17,7 @@ class LoginViewController: UIViewController {
 
     @IBOutlet weak var loginButton: UIButton!
     @IBAction func loginPressed(_ sender: Any) {
+        performSegue(withIdentifier: "AvatarCreation1", sender: self)
     }
     
     @IBOutlet weak var createAccount: UIButton!
